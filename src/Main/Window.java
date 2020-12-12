@@ -86,5 +86,7 @@ public class Window{
 				undoManager.addEdit(e.getEdit());	
 			}
 		});
+		
+		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 	}
 }
